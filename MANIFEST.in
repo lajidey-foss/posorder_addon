@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include posorder_addon *.css
+recursive-include posorder_addon *.csv
+recursive-include posorder_addon *.html
+recursive-include posorder_addon *.ico
+recursive-include posorder_addon *.js
+recursive-include posorder_addon *.json
+recursive-include posorder_addon *.md
+recursive-include posorder_addon *.png
+recursive-include posorder_addon *.py
+recursive-include posorder_addon *.svg
+recursive-include posorder_addon *.txt
+recursive-exclude posorder_addon *.pyc
