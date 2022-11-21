@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "creation": "2022-11-22 00:23:13.784897",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "apply_setting_section",
+  "auto_sop_posting"
+ ],
+ "fields": [
+  {
+   "fieldname": "apply_setting_section",
+   "fieldtype": "Section Break",
+   "label": "Apply Setting"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_sop_posting",
+   "fieldtype": "Check",
+   "label": "Auto Sales Order Posting"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-11-22 00:23:13.784897",
+ "modified_by": "Administrator",
+ "module": "Posorder Addon",
+ "name": "Order Addon Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
